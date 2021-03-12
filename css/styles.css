@@ -1,0 +1,206 @@
+html,body{
+    max-width: 100%;
+}
+
+.p,.h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header{
+
+    display: flex;
+    width: 100%;
+    height: 84vh; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Navigation Pane */
+.navpane{
+
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+
+}
+
+.links{
+
+    text-decoration: none; 
+    font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 30px;
+    transition-duration: 0.4s;
+    color: black;
+    align-items: center;
+    justify-content: center;
+   padding-bottom: 25px;
+
+}
+
+.links:hover{
+
+    font-size: 40px;
+    padding-bottom: 120px;
+   
+}
+
+/* Main Cover */
+.maincover{
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    background-image: url(/img/cover.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+
+}
+
+.maintext{
+    
+    margin: 2px;
+    margin-top: 70px;
+    padding-left: 30px;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.subtext{
+
+    display: flex;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.blogpostheader{
+    
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Blogposts */
+.blogposts{
+
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    color: cornsilk;
+
+}
+
+#post1{
+
+    display: flex;
+    width: 30%;
+    height: 41.5%;
+    background-image: url(/img/post-1.jpg);
+    background-repeat: no-repeat;
+     background-size: 100%;
+     margin: 40px;
+
+}
+
+#post2{
+
+    display: flex;
+    width: 30%;
+    height: 41.5%;
+    background-image: url(/img/post-2.jpg);
+    background-repeat: no-repeat;
+     background-size: 100%;
+     margin: 40px;
+
+}
+
+#post3{
+
+    display: flex;
+    width: 30%;
+    height: 41.5%;
+    background-image: url(/img/post-3.jpg);
+    background-repeat: no-repeat;
+     background-size: 100%;
+     margin: 40px;
+
+}
+
+/* Contact */
+.contact{
+    color: #ffffff;
+    background-color: #ff6f61;
+    font: 16px;
+    padding: 20px;
+    margin-top: 130px;
+    height: 150px;
+    width: 1300px;
+
+}
+
+#contact-title{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+#contact-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#contact-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+    border-radius: 50px;
+     border:none;
+    
+}
+
+#contact-link:hover{
+    background-color: rgb(124, 24, 24);
+    color: white;
+}
+
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
